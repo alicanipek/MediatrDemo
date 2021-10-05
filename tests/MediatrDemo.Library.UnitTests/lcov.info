@@ -1,0 +1,191 @@
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Queries/GetPeopleQuery.cs
+FN:7,System.Void MediatrDemo.Library.Queries.GetPeopleQuery::.ctor()
+FNDA:1,System.Void MediatrDemo.Library.Queries.GetPeopleQuery::.ctor()
+DA:8,1
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Queries/GetPersonQuery.cs
+FN:6,System.Int32 MediatrDemo.Library.Queries.GetPersonQuery::get_Id()
+FNDA:4,System.Int32 MediatrDemo.Library.Queries.GetPersonQuery::get_Id()
+DA:7,4
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Models/Person.cs
+FN:5,System.Int32 MediatrDemo.Library.Models.Person::get_Id()
+FNDA:5,System.Int32 MediatrDemo.Library.Models.Person::get_Id()
+DA:6,5
+FN:6,System.String MediatrDemo.Library.Models.Person::get_FirstName()
+FNDA:9,System.String MediatrDemo.Library.Models.Person::get_FirstName()
+DA:7,9
+FN:7,System.String MediatrDemo.Library.Models.Person::get_LastName()
+FNDA:9,System.String MediatrDemo.Library.Models.Person::get_LastName()
+DA:8,9
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Handlers/GetPeopleHandler.cs
+FN:20,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<MediatrDemo.Library.Models.Person>> MediatrDemo.Library.Handlers.GetPersonListHandler::Handle(MediatrDemo.Library.Queries.GetPeopleQuery,System.Threading.CancellationToken)
+FNDA:1,System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<MediatrDemo.Library.Models.Person>> MediatrDemo.Library.Handlers.GetPersonListHandler::Handle(MediatrDemo.Library.Queries.GetPeopleQuery,System.Threading.CancellationToken)
+DA:21,1
+DA:22,1
+DA:23,1
+FN:13,System.Void MediatrDemo.Library.Handlers.GetPersonListHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+FNDA:1,System.Void MediatrDemo.Library.Handlers.GetPersonListHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Handlers/GetPersonHandler.cs
+FN:21,System.Threading.Tasks.Task`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.Handlers.GetPersonHandler::Handle(MediatrDemo.Library.Queries.GetPersonQuery,System.Threading.CancellationToken)
+FNDA:1,System.Threading.Tasks.Task`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.Handlers.GetPersonHandler::Handle(MediatrDemo.Library.Queries.GetPersonQuery,System.Threading.CancellationToken)
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+FN:15,System.Void MediatrDemo.Library.Handlers.GetPersonHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+FNDA:1,System.Void MediatrDemo.Library.Handlers.GetPersonHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+LF:8
+LH:8
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Handlers/InsertPersonHandler.cs
+FN:20,System.Threading.Tasks.Task`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.Handlers.InsertPersonHandler::Handle(MediatrDemo.Library.Commands.InsertPersonCommand,System.Threading.CancellationToken)
+FNDA:1,System.Threading.Tasks.Task`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.Handlers.InsertPersonHandler::Handle(MediatrDemo.Library.Commands.InsertPersonCommand,System.Threading.CancellationToken)
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+FN:14,System.Void MediatrDemo.Library.Handlers.InsertPersonHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+FNDA:1,System.Void MediatrDemo.Library.Handlers.InsertPersonHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+LF:8
+LH:8
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Handlers/UpdatePersonHandler.cs
+FN:20,System.Threading.Tasks.Task`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.Handlers.UpdatePersonHandler::Handle(MediatrDemo.Library.Commands.UpdatePersonCommand,System.Threading.CancellationToken)
+FNDA:1,System.Threading.Tasks.Task`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.Handlers.UpdatePersonHandler::Handle(MediatrDemo.Library.Commands.UpdatePersonCommand,System.Threading.CancellationToken)
+DA:21,1
+DA:22,1
+DA:23,1
+FN:14,System.Void MediatrDemo.Library.Handlers.UpdatePersonHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+FNDA:1,System.Void MediatrDemo.Library.Handlers.UpdatePersonHandler::.ctor(MediatrDemo.Library.DataAccess.IDataAccess)
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/DataAccess/DemoDataAccess.cs
+FN:18,System.Collections.Generic.List`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.DataAccess.DemoDataAccess::GetPeople()
+FNDA:0,System.Collections.Generic.List`1<MediatrDemo.Library.Models.Person> MediatrDemo.Library.DataAccess.DemoDataAccess::GetPeople()
+DA:19,0
+DA:20,0
+DA:21,0
+FN:23,MediatrDemo.Library.Models.Person MediatrDemo.Library.DataAccess.DemoDataAccess::GetPerson(System.Int32)
+FNDA:0,MediatrDemo.Library.Models.Person MediatrDemo.Library.DataAccess.DemoDataAccess::GetPerson(System.Int32)
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+FN:29,MediatrDemo.Library.Models.Person MediatrDemo.Library.DataAccess.DemoDataAccess::InsertPerson(System.String,System.String)
+FNDA:0,MediatrDemo.Library.Models.Person MediatrDemo.Library.DataAccess.DemoDataAccess::InsertPerson(System.String,System.String)
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+FN:37,MediatrDemo.Library.Models.Person MediatrDemo.Library.DataAccess.DemoDataAccess::UpdatePerson(System.Int32,System.String,System.String)
+FNDA:0,MediatrDemo.Library.Models.Person MediatrDemo.Library.DataAccess.DemoDataAccess::UpdatePerson(System.Int32,System.String,System.String)
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+BRDA:40,44,0,0
+BRDA:42,50,0,0
+BRDA:42,50,1,0
+BRDA:43,68,0,0
+BRDA:43,68,1,0
+BRDA:40,44,1,0
+FN:9,System.Void MediatrDemo.Library.DataAccess.DemoDataAccess::.ctor()
+FNDA:0,System.Void MediatrDemo.Library.DataAccess.DemoDataAccess::.ctor()
+DA:10,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+LF:28
+LH:0
+BRF:6
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Commands/InsertPersonCommand.cs
+FN:6,System.String MediatrDemo.Library.Commands.InsertPersonCommand::get_FirstName()
+FNDA:9,System.String MediatrDemo.Library.Commands.InsertPersonCommand::get_FirstName()
+DA:7,9
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/ipek/Projects/MediatrDemo/MediatrDemo.Library/Commands/UpdatePersonCommand.cs
+FN:7,System.Int32 MediatrDemo.Library.Commands.UpdatePersonCommand::get_Id()
+FNDA:13,System.Int32 MediatrDemo.Library.Commands.UpdatePersonCommand::get_Id()
+DA:8,13
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
