@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.809.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatrDemo.Library", "MediatrDemo.Library\MediatrDemo.Library.csproj", "{4C5901AC-33BB-4DC6-B80A-924DFD7931FA}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MediatrDemo.API", "MediatrDemo.API\MediatrDemo.API.csproj", "{46453159-16B5-46DA-9D96-7DE31D763806}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatrDemo.API", "MediatrDemo.API\MediatrDemo.API.csproj", "{46453159-16B5-46DA-9D96-7DE31D763806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C2B4EA3C-B7CB-4F59-AEE5-6E27B7D54BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatrDemo.Library.UnitTests", "tests\MediatrDemo.Library.UnitTests\MediatrDemo.Library.UnitTests.csproj", "{6BEDE80D-9259-491A-9C1E-85BDCCF0BB31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,11 +25,18 @@ Global
 		{46453159-16B5-46DA-9D96-7DE31D763806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46453159-16B5-46DA-9D96-7DE31D763806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46453159-16B5-46DA-9D96-7DE31D763806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEDE80D-9259-491A-9C1E-85BDCCF0BB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEDE80D-9259-491A-9C1E-85BDCCF0BB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEDE80D-9259-491A-9C1E-85BDCCF0BB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEDE80D-9259-491A-9C1E-85BDCCF0BB31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F6BE7E5-B25C-4D5B-90B9-CB479B2AA399}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BEDE80D-9259-491A-9C1E-85BDCCF0BB31} = {C2B4EA3C-B7CB-4F59-AEE5-6E27B7D54BAB}
 	EndGlobalSection
 EndGlobal
